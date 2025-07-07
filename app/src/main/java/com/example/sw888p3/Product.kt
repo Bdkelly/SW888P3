@@ -6,7 +6,7 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class Product(
-    val id: Int = 0, // We'll manage this ID manually or let SQLite autoincrement
+    val id: Int = 0,
     val name: String,
     val description: String,
     val seller: String,
